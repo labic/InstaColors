@@ -3,12 +3,24 @@
 
 Este repositório contém um script Python chamado `InstaColors.py` que utiliza dos dados coletados atraves do CrowdTangle para baixar imagens do Instagram, coletar a cor predominante de cada imagem, extrair dados como numero de likes, interações, comentarios e gerar uma visualização interativa em HTML com as cores encontradas.
 
+## Processo de Desenvolvimento
+
+ - [x] Download das imagens a partir do CSV fornecido pelo CrowdTangle
+ - [x] Extração dos dados de Likes, Interações, Comentários do CSV
+ - [x] Analise da cor predominante de cada imagem
+ - [x] Implementação das organizações dos itens por Saturação, Brilho, Matiz, Nº Likes, Nº Comentarios, Nº Interações 
+ - [ ] Implementação da pre-visualização das imagens
+ - [ ] Tamanho do .colordot adaptável ao numero de itens no dataset
+ - [ ] Restruturação da estética da página 
+
 ## Requisitos
 
 Certifique-se de ter instalado as seguintes dependências antes de executar o script:
 
 -   Python 3.6 ou superior.
 -   Bibliotecas Python: `requests`, `pandas`, `tqdm`, `colorthief`, `urllib`, `PIL`, `bs4`.
+
+
 
 ## Uso
 
